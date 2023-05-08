@@ -1,0 +1,19 @@
+#board {
+  display: flex;
+  flex-wrap: wrap;
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  border: 2px solid black;
+}
+
+.cell {
+  width: 98px;
+  height: 98px;
+  background-color: white;
+  border: 1px solid black;
+  font-size: 72px;
+  text-align: center;
+  line-height: 1.1;
+  cursor: pointer;
+}
